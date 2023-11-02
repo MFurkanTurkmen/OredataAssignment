@@ -1,0 +1,17 @@
+server:
+  port: 80
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    username: postgres
+    password: asd123asd
+    url: jdbc:postgresql://localhost:5432/oredataDB
+  jpa:
+    hibernate:
+      ddl-auto: update
+
+
+
+passkey: "#luC}VB>IsC)*>&x**zMqIdD}Pct_%T3w>{9&Zl$tbXZwfF3J+p%iD~o]8-!^`;"
+
+ratelimit : 3
